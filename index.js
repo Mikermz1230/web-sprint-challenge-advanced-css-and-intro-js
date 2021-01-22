@@ -350,10 +350,9 @@ function getHTML(/* Code here */){
 /* 💪💪💪💪💪💪 STRETCH 2: 💪💪💪💪💪💪
 Create a function called `randomize` that takes a data array as an argument and returns a the same array in a randomized order. */
 
-function randomize(/* Code here */){
-
-  /* Code here */
-
+function randomize(){
+      shuffle(artists);
+      return(shuffle(artists.length));
 }
 
 
@@ -363,17 +362,17 @@ Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (cr
 
 
 
-/* 🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑*/
-function foo(){
-console.log('its working');
-return 'bar';
+ /* 🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑*/
+ function foo(){
+  console.log('its working');
+  return 'bar';
 }
 /*Don't touch the code after this line! */
 export default{
-foo,
-getArtistByIndex,
-get20s,
-removeArtist,
-addArtist,
-lotsOfArt,
+  foo,
+  getArtistByIndex,
+  get20s,
+  removeArtist,
+  addArtist,
+  lotsOfArt
 }
