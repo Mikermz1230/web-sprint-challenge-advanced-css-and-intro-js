@@ -246,7 +246,7 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 function get20s(element){
 for (let i = 0; i < artists.length; i++) {
   const element = artists[i];
-  if (["years"] < ["1901"] ) {
+  if (["years"] > ["1901"] ) {
     return(artists.name);
     
   }
